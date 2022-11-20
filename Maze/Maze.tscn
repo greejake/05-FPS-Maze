@@ -110,7 +110,6 @@ text = "Quit"
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 30, 46.403, 30 )
-current = true
 
 [connection signal="body_entered" from="Maze/Exit" to="Maze/Exit" method="_on_Exit_body_entered"]
 [connection signal="pressed" from="Menu/Restart" to="Menu" method="_on_Restart_pressed"]
