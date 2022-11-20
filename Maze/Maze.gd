@@ -37,7 +37,6 @@ var tile_size = 2
 var width = 40  						
 var height = 20  						
 
-
 func _ready():
 	randomize()
 	make_maze()

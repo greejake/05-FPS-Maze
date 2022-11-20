@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://UI/Main.gd" type="Script" id=1]
+[ext_resource path="res://score2.tscn" type="PackedScene" id=2]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -34,6 +35,12 @@ margin_top = 213.0
 margin_right = 587.0
 margin_bottom = 297.0
 text = "Play"
+
+[node name="Score2" parent="." instance=ExtResource( 2 )]
+margin_left = 12.0
+margin_top = 13.0
+margin_right = -862.0
+margin_bottom = -514.0
 
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
 [connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
