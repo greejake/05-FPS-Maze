@@ -13,8 +13,9 @@ Built using Godot 3.5
 ## References
 
 This project uses an adaptation of the excellent tutorial from [KidsCanCode](https://kidscancode.org/blog/2018/08/godot3_procgen1/)
+
 Enemy texture from [Kenney.nl](https://kenney.nl/assets/blocky-characters)
-Pizza texture from 
+
 Music by me
 
 ## Future Development
